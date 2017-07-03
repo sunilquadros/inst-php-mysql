@@ -22,7 +22,8 @@ if ($result->num_rows > 0) {
    while($row = $result->fetch_assoc()) {
    // echo "id: " . $row["id"]. " - Message: " . $row["msg"]. "<br>";
    //   echo "id: " . $row["id"]. " - Message: " . $row["msg"]. " ". "<br>";
-        echo "InNum: " . $row["instructorNumber"]. " ". "<br>";
+   //   echo "InNum: " . $row["instructorNumber"]. " ". "<br>";
+        echo nl2br($row['instructorNumber']);
    }
 } else {
    echo "0 results";
