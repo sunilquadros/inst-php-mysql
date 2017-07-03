@@ -1,8 +1,8 @@
 <?php
-$servername = "172.30.212.254";
-$username = "ose";
+$servername = "172.30.219.56";
+$username = "instructor";
 $password = "openshift";
-$dbname = "quotes";
+$dbname = "instructor";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
